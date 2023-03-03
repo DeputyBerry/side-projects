@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    height: 4.5vh;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+li{
+   list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+nav .title{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+button {
+    padding: 10px;
+    width: 25%;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-links > li > a {
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 1rem;
+    height: inherit;
+    color: tra;
+}
+
+.app-container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    text-align: center;
+}
+
+.app-container h2{
+    font-size: 3.75rem;
+    padding: 10px;
+    word-wrap: normal;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    background: gray;
+    color: papayawhip;
+    border-radius: 5px;
+}
+
+    
