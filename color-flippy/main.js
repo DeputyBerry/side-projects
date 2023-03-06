@@ -10,6 +10,8 @@ function generateHexColor() {
       hexColor += hexDigit;
     }
     console.log(hexColor);
+    // capitalize the hex color
+    hexColor = hexColor.toUpperCase();
     return hexColor;
   }
 

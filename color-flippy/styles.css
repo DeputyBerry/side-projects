@@ -12,6 +12,7 @@ nav {
     text-align: center;
     align-items: center;
     overflow: hidden;
+    background: white;
 }
 
 li{
@@ -30,10 +31,12 @@ nav .title{
 
 button {
     padding: 10px;
-    width: 25%;
+    width: 30%;
     margin-bottom: 1rem;
     border-radius: 5px;
     cursor: pointer;
+    background: transparent;
+    border: 1px solid;
 }
 
 .nav-links > li > a {
@@ -41,7 +44,7 @@ button {
     font-weight: 300;
     padding: 1rem;
     height: inherit;
-    color: tra;
+    color: black;
 }
 
 .app-container{
@@ -56,12 +59,27 @@ button {
 .app-container h2{
     font-size: 3.75rem;
     padding: 10px;
-    word-wrap: normal;
     font-weight: 400;
     margin-bottom: 1rem;
-    background: gray;
-    color: papayawhip;
+    background: black;
+    color: white;
     border-radius: 5px;
 }
 
-    
+@media(max-width: 768px){
+    .app-container{
+        width: 90%;
+    }
+
+    nav{
+        height: 10.5vh;
+    }
+
+    .nav-links > li > a {
+        font-size: 1.25rem;
+        font-weight: 300;
+        padding: 1rem;
+        word-wrap: normal;
+    }
+}
+
